@@ -241,7 +241,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1lW-wp-FM0"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="zEF-87-SZE" firstAttribute="centerY" secondItem="ic1-Gf-LWa" secondAttribute="centerY" id="Mp1-H9-KJ1"/>
                             <constraint firstItem="zEF-87-SZE" firstAttribute="centerX" secondItem="ic1-Gf-LWa" secondAttribute="centerX" id="rtJ-fQ-yT5"/>
@@ -281,6 +281,9 @@
     </scenes>
     <resources>
         <image name="Daco_4049865" width="500" height="209"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemGray4Color">
             <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
